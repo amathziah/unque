@@ -9,7 +9,7 @@
   bash
   Copy code
   cd unque
-###3. Install Dependencies
+### 3. Install Dependencies
   Install the required dependencies using npm:
   
   bash
@@ -17,7 +17,7 @@
   npm install
   This will install all the necessary packages listed in package.json.
 
-###4. Create a .env file (If required)
+### 4. Create a .env file (If required)
   If your project requires environment variables, create a .env file in the root of the project. You can use the following as an example:
   
   makefile
@@ -25,7 +25,7 @@
   PORT=3000
   DB_URI=mongodb://localhost:27017/your-database-name
   SECRET_KEY=your-secret-key
-###5. Run the Application
+### 5. Run the Application
   To start the application locally, run:
   
   bash
@@ -33,7 +33,7 @@
   npm start
   This will start the app on http://localhost:3000 (or whichever port you've set in the .env file).
 
-###6. Running Tests
+### 6. Running Tests
   If you're using Jest for testing, you can run the tests with:
   
   bash
